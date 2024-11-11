@@ -276,7 +276,7 @@ def plot_graphs(history, metric):
     plt.ylabel(metric)
     plt.legend([metric, f'val_{metric}'])
     plt.show()
-print('Name: Yuvabharathi   Register Number: 212222230181 ')
+print('Name: Harini M D   Register Number: 212222230043 ')
 plot_graphs(history, "accuracy")
 plot_graphs(history, "loss")
 ```
