@@ -110,7 +110,8 @@ print(f"There are {train_dataset.cardinality()} sentence-label pairs for trainin
 print(f"There are {validation_dataset.cardinality()} sentence-label pairs for validation.\n")
      
 ```
-![Screenshot 2024-11-11 104754](https://github.com/user-attachments/assets/4b488371-d6dc-47d3-967c-bcfd79fc2b7b)
+![Screenshot 2024-11-11 115430](https://github.com/user-attachments/assets/4105777e-86b6-4474-aaf0-cefbb02e2fcf)
+
 
 ### Standardize the Function:
 ```
@@ -165,7 +166,8 @@ print(f"Vocabulary contains {vocab_size} words\n")
      
 ```
 
-![Screenshot 2024-11-11 104827](https://github.com/user-attachments/assets/f89ea6b7-4320-4f76-b304-6a47ba36aa73)
+![Screenshot 2024-11-11 115441](https://github.com/user-attachments/assets/4b7b4792-17b7-4dbe-878c-4c93e5ee9c8c)
+
 
 ### Label encoder Function:
 ```
@@ -195,7 +197,7 @@ print('Name: Harini M D     Register Number: 212222230043    ')
 print(f'Unique labels: {label_encoder.get_vocabulary()}')
 ```
 
-![Screenshot 2024-11-11 104859](https://github.com/user-attachments/assets/06802b66-6aab-4954-89e1-ef586077099c)
+![Screenshot 2024-11-11 115448](https://github.com/user-attachments/assets/2ae70a8a-e77a-463a-8b2d-38debae97c56)
 
 
 ### Preprocess the data function:
@@ -222,7 +224,8 @@ print('Name: Harini M D    Register Number: 212222230043    ')
 print(f"Shape of the train batch: {train_batch[0].shape}")
 print(f"Shape of the validation batch: {validation_batch[0].shape}")
 ```
-![Screenshot 2024-11-11 104940](https://github.com/user-attachments/assets/ebc7f1df-8eac-49b7-a7b9-6d1f6fe42825)
+![Screenshot 2024-11-11 115456](https://github.com/user-attachments/assets/a6932ade-2adf-46b5-b14e-047e89219792)
+
 
 ### Create Model:
 ```
@@ -285,9 +288,7 @@ plot_graphs(history, "loss")
 
 ## OUTPUT:
 ### Loss, Accuracy Vs Iteration Plot
-![Screenshot 2024-11-11 105058](https://github.com/user-attachments/assets/810c8426-dbf1-45de-b445-4bf4fc609ca0)
-
-![Untitled-1](https://github.com/user-attachments/assets/150da452-4d76-4f34-9fce-7029cb09d043)
+![Screenshot 2024-11-11 115533](https://github.com/user-attachments/assets/ebab7fba-b648-46aa-938b-d75a30c62ed4)
 
 ## RESULT
 Thus the program to create a classifier using specialized layers for text data such as Embedding and GlobalAveragePooling1D is implemented successfully.
